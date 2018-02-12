@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.harshi.is.SplashScreen">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/wlcm"
+        android:id="@+id/gifImageView" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/w2"
+        android:layout_below="@+id/gifImageView"
+        android:layout_centerInParent="true"
+        android:text="TO"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/w3"
+        android:layout_below="@+id/w2"
+        android:layout_centerInParent="true"
+        android:text="ISE CLUB"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"/>
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/w1"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_below="@+id/w3"
+        android:src="@drawable/at" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="Copyrights © Department of ISE" />
+
+</RelativeLayout>
